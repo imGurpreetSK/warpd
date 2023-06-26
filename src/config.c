@@ -21,8 +21,8 @@ static struct {
 	{ "screen_activation_key", "A-M-s", "Activate (s)creen selection mode.", OPT_KEY },
 	{ "activation_key", "A-M-c", "Activate normal movement mode (manual (c)ursor movement).", OPT_KEY },
 
-	{ "hint_oneshot_key", "A-M-l", "Activate hint mode and exit upon selection.", OPT_KEY },
-	{ "hint2_oneshot_key", "A-M-L", "Activate two pass hint mode and exit upon selection.", OPT_KEY },
+	{ "hint_oneshot_key", "A-M-x", "Activate hint mode and exit upon selection.", OPT_KEY },
+	{ "hint2_oneshot_key", "A-M-X", "Activate two pass hint mode and exit upon selection.", OPT_KEY },
 
 	/* Normal mode keys */
 
@@ -43,8 +43,8 @@ static struct {
 	{ "screen", "s", "Activate (s)creen selection while in normal mode.", OPT_KEY },
 
 	{ "left", "h", "Move the cursor left in normal mode.", OPT_KEY },
-	{ "down", "j", "Move the cursor down in normal mode.", OPT_KEY },
-	{ "up", "k", "Move the cursor up in normal mode.", OPT_KEY },
+	{ "down", "k", "Move the cursor down in normal mode.", OPT_KEY },
+	{ "up", "j", "Move the cursor up in normal mode.", OPT_KEY },
 	{ "right", "l", "Move the cursor right in normal mode.", OPT_KEY },
 	{ "top", "H", "Moves the cursor to the top of the screen in normal mode.", OPT_KEY },
 	{ "middle", "M", "Moves the cursor to the middle of the screen in normal mode.", OPT_KEY },
@@ -108,9 +108,9 @@ static struct {
 
 	{ "screen_chars", "jkl;asdfg", "The characters used for screen selection.", OPT_STRING },
 
-	{ "scroll_speed", "300", "Initial scroll speed in units/second (unit varies by platform).", OPT_INT },
+	{ "scroll_speed", "350", "Initial scroll speed in units/second (unit varies by platform).", OPT_INT },
 	{ "scroll_max_speed", "9000", "Maximum scroll speed.", OPT_INT },
-	{ "scroll_acceleration", "1600", "Scroll acceleration in units/second^2.", OPT_INT },
+	{ "scroll_acceleration", "3000", "Scroll acceleration in units/second^2.", OPT_INT },
 	{ "scroll_deceleration", "-3400", "Scroll deceleration.", OPT_INT },
 
 	{ "indicator", "none", "Specifies an optional visual indicator to be displayed while normal mode is active, must be one of: topright, topleft, bottomright, bottomleft, none", OPT_STRING },

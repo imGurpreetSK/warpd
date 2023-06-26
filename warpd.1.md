@@ -257,7 +257,7 @@ _r_. Once you finally wish to type something, you can do _x fx n_ to focus on
 the UI element, click, and exit.
 
 Conversely, warpd can complement an input heavy workflow with its oneshot
-functionality and dedicated activation keys (E.G _n_, _A-M-l_, _A-M-x_, etc).  
+functionality and dedicated activation keys (E.G _n_, _A-M-x_, _A-M-x_, etc).  
 
 It is important to note that warpd is not intended to replace mouse heavy
 workflows, and will likely always be inferior for rapid precise local
